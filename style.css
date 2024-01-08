@@ -256,3 +256,52 @@ main{
     border-radius: 0px 40px 40px 0px ;
     color: white;
 }
+
+/* footer style code area  */
+footer{
+    background: #070211;
+    color: white;
+}
+.footer-section{
+    max-width: 1320px;
+    margin: 100px auto 0px auto;
+    /* padding: 55px; */
+    background: #070211;
+}
+.div-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+}
+.div-one > p{
+    font-size: 20px;
+    font-weight: 400px ;
+    line-height: 30px;
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+}
+.footer-contact p img{
+    margin-right: 10px;
+}
+.div-two{
+    text-align: center;
+    padding: 50px 0px;
+    border-bottom:rgba(255, 255, 255, 0.15) 1px solid;
+}
+.div-two img{
+    margin-left: 20px;;
+}
+.div-tree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 40px 0px 9px 0px ;
+}

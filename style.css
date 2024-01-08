@@ -45,7 +45,11 @@
     text-align: center;
 }
 
-/* main area style start */
+/* main area style code */
+main{
+    width: 1320px;
+    margin: 0px auto;
+}
 .section-one-discount-div{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,28 +137,122 @@
     justify-content: space-between;
     align-items: center;
     width: 1320px;
-    margin: 0px auto;
-    padding: 120px 80px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.section-four-1div{
+.section-four-div1{
     
 }
-.section-four-1div > h3{
+.section-four-div1 > h3{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: #ff0000;
+}
+.section-four-div1 > h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px ;
+}
+.section-four-div1 > p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px 0px 0px;
+    color: #07021193;
+}
+
+.section-four-div2 > img{
+    margin-left:-120px ;
+    border: #Ff0000 10px solid;
+    border-radius: 50%;
+    padding: 25px;
+}
+.section-four-div3{
+    
+}
+.section-four-div3 > h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #Ff0000;
     margin-bottom: 0px;
 }
-.section-four-1div > h2{
+.section-four-div3 > p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021193;
+}
+.section-four-div3 > img{
 
 }
-.section-four-1div > p{
 
+/* section six */
+.section-six > h3{
+    color: #Ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-six > h2{
+    font-size: 45px;
+    font-weight: 700;
+    font-family:monospace;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.section-six > p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211b2;
+    margin-top: 10px;
+}
+.gift-box{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    margin-top: 50px;
 }
 
-.section-four-2div{
-    
+/* section seven */
+.section-seven{
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 85px 200px;
+    margin-top: 90px;
 }
-.section-four-3div{
-
+.section-seven > h2{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+.section-seven > p{
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 20px ;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.button-style{
+    margin-top: 30px;
+}
+.email-btn{
+    color: #070211e7;
+    border: none;
+    margin-top: 30px;
+    margin-right: 0px;
+    padding:20px 150px 20px 25px;
+    border-radius: 40px 0px 0px 40px;
+}
+.submit-btn{
+    background-color: #Ff0000;
+    padding: 20px 50px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 0px 40px 40px 0px ;
+    color: white;
 }

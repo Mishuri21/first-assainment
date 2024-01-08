@@ -1,0 +1,160 @@
+{
+    margin: 0%;
+    padding: 0%;
+}
+/* common style code area */
+.btn-style{
+    font: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: #Ff0000;
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    }
+/* common style code end */
+
+/* header area  */
+.simple-header{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 35px auto 90px auto;
+    border-radius: 15px;
+}
+.simple-header-div{
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding: 90px 340px;
+    margin-bottom: 0px;
+}
+.simple-header-div > p{
+    idth: 260px;
+    color: white;
+    font-size: 30px;
+    font-weight:300;
+    position: absolute;
+    margin: 80px auto 0px 190px;
+}
+.simple-header-div > h3{
+    width: 630px;
+    font-size: 75px;
+    font-weight: 800;
+    margin: 140px auto auto auto;
+    text-align: center;
+}
+
+/* main area style start */
+.section-one-discount-div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-one-discount-div > h2{
+    color: #ff0000;
+    font-size: 85px;
+    font-weight: 700;
+    padding: 25px 0px 0px 0px ;
+    margin-bottom: 0px;
+
+}
+.section-one-discount-div > p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 40px 0px 20px 0px;
+}
+.section-one-discount-div > h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.section-one-discount-div > img{
+    padding-bottom: 100px;
+}
+
+/* section two area */
+.section-two{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-two-textarea > h2{
+    width: 640px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.section-two-para{
+    width: 700px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(250, 250, 250, 0.80);;
+    padding: 10px 0px;
+}
+
+/* section tree area */
+.section-tree{
+    width: 1320px;
+    height: 440px;
+    margin: 0px auto;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.section-tree > button{
+    display: block;
+    margin: 0px auto 80px auto;
+}
+.section-tree > p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 150px 150px 0px 150px;
+    line-height: 50px;
+
+}
+.section-tree span{
+    color: #Ff0000;
+}
+
+/* section four style area */
+.section-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    margin: 0px auto;
+    padding: 120px 80px;
+}
+.section-four-1div{
+    
+}
+.section-four-1div > h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 0px;
+}
+.section-four-1div > h2{
+
+}
+.section-four-1div > p{
+
+}
+
+.section-four-2div{
+    
+}
+.section-four-3div{
+
+}

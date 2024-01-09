@@ -191,8 +191,8 @@ main{
 }
 .section-five > h4{
     text-align: center;
-    font: 25px;
-    font-weight: 500;
+    font: 35px;
+    font-weight: 700;
     margin-bottom: 0px;
 }
 .section-five > h2{
@@ -344,7 +344,6 @@ footer{
     align-items: center;
     font-size: 22px;
     font-weight: 400;
-    padding: 40px 0px 9px 0px ;
+    padding: 40px 0px 40px 0px ;
 }
-
 /* Thank You */
